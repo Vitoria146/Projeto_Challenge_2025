@@ -1,0 +1,12 @@
+:root {
+    --bg-color-header: #051F40;
+    --main-bg-color: white;   
+    --font-color-header: white;
+    --border-nav-a: rgba(255, 255, 255, 0.101);
+    --nav-link-ativo: #26BFB0;
+    --hover-bg-color: #054A59;
+    --border-banner: #0A7373;
+    --banner-btn: #051F40;
+    --banner-btn-hover: #054A59;
+    
+}

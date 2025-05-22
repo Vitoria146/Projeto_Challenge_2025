@@ -1,0 +1,54 @@
+@import "./variables.css";
+
+strong{
+    font-weight: bolder;
+}
+
+.banner{
+    height: 400px;
+    min-width: 75vw;
+    max-width: 85vw ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    background-color: var(--main-bg-color);
+    border: 2px solid var(--border-banner);
+    border-radius: 24px;
+}
+
+.banner_content {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+
+}
+
+.banner_tittle{
+    font-size: large;
+
+}
+
+.banner_btn{
+    position: static;
+    padding: 2vh 5vw;
+    background-color: var(--banner-btn);
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.banner_btn:hover{
+animation-name: btn-transition;
+    animation-duration: 0.3s;
+    background-color: var(--banner-btn-hover);
+
+}
+
+@keyframes btn-transition {
+    from {background-color: var(--banner-btn);}
+    to {background-color: var(--banner-btn-hover);}
+}
