@@ -201,3 +201,111 @@ footer {
     opacity: 0.8;
 }
 
+/* Sobre nos */
+
+.ctts-container {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+}
+
+.cards-container-ctt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+/* Cards de integrantes */
+.card_ctt {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card_ctt:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border: 4px solid #6e8efb;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card_ctt h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.card_ctt > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.card_ctt img {
+    width: 24px;
+    height: 24px;
+}
+
+.card_ctt p {
+    color: #7f8c8d;
+    margin: 0;
+}
+
+.card_ctt a {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.card_ctt a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+.cards-container-ctt {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_ctt {
+    max-width: 100%;
+}
+}
+
+
+/* Efeitos responsivos */
+@media (max-width: 600px) {
+
+.banner h1 {
+    font-size: 1.8rem;
+}
+
+.formulario {
+    margin: 30px 5%;
+}
+
+.formulario input {
+    padding: 12px 14px;
+}
+}
