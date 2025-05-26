@@ -8,47 +8,81 @@
     <link rel="stylesheet" href="./style/contato.css">
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <a href="./index.html">
-            <img src="./img/logosf.png" class="logo" alt="logo ConexusVitalis" >
-        </a> 
-        
-        <nav>
-            <ul>
-                <li><a href="./index.html" class="">Home</a></li>
-                <li><a href="./solucao.html" class="">Solução</a></li>
-                <li><a href="./sobre.html" class="">Sobre nós</a></li>
-                <li><a href="./faq.html" class="">FAQ</a></li>
-                <li><a href="./contato.html" class="link_ativo">Contate-nos</a></li>
-            </ul>
-        </nav>
+        <div class="container-header">
+            <nav>
+                <a href="./index.html">
+                    <img src="./img/logosf.png" class="logo" alt="logo ConexusVitalis" >
+                </a>
+                <ul class="menu">
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./solucao.html">Solução</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     
      <main>
-        <div class="formulario">
-            <div class="div_nome">
-                <p>Nome</p>
-                <input type="text">
+        <section class="banner-forms">
+            <div class="container-forms">
+                <h1>Entre em Contato</h1>
+                <form action="" class="formulario">
+                    <div class="div_nome">
+                        <p>Nome</p>
+                        <input type="text">
+                    </div>
+                    <div class="div_email">
+                        <p>Email</p>
+                        <input type="text">
+                    </div>
+                    <div class="div_tel">
+                        <p>Número de Telefone</p>
+                        <input type="number">
+                    </div>
+                    <div class="div_assunto">
+                        <p>Assunto</p>
+                        <input type="text">
+                    </div>
+                    <div class="div_conteudo">
+                        <p>Conteudo</p> 
+                        <input type="text">
+                    </div>
+                    <input  class="confirm" type="submit">
+                </form>
             </div>
-            <div class="div_email">
-                <p>Email</p>
-                <input type="text">
-            </div>
-            <div class="div_tel">
-                <p>Número de Telefone</p>
-                <input type="number">
-            </div>
-            <div class="div_assunto">
-                <p>Assunto</p>
-                <input type="text">
-            </div>
-            <div class="div_conteudo">
-                <p>Conteudo</p>
-                <input type="text">
-            </div>
-
-        </div>
+        </section>
      </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="./index.html">Início</a>
+                <a href="./solucao.html">Solução</a>
+                <a href="./sobre.html">Sobre</a>
+                <a href="./faq.html">FAQ</a>
+                <a href="./contato.html">Contato</a>
+            </div>
+            <p class="copyright">© 2025 ConexusVitalis - Fiap. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="./index.html">Início</a>
+                <a href="./solucao.html">Solução</a>
+                <a href="./sobre.html">Sobre</a>
+                <a href="./faq.html">FAQ</a>
+                <a href="./contato.html">Contato</a>
+            </div>
+            <p class="copyright">© 2025 ConexusVitalis - Fiap. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </html>
